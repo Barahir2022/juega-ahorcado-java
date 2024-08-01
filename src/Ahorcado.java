@@ -26,7 +26,7 @@ public class Ahorcado {
             System.out.println("Introduzca una letra, por favor");
 
             //usamos la clase scanner para pedir una letra
-            char letra = scanner.next().charAt(0);
+            char letra = Character.toLowerCase(scanner.next().charAt(0));
 
             boolean letraCorrecta = false;
 
